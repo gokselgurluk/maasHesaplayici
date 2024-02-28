@@ -11,7 +11,11 @@ public class Main {
         Employee calisan2 = new Employee("Ali TORPiL", 3500, 20,2010);//10
         Employee calisan3 = new Employee("Hüseyin CESUR", 3000, 30,2001);//20
 
-
+        System.out.println(calisan1);
+        System.out.println("=====================");
+        System.out.println(calisan2);
+        System.out.println("=====================");
+        System.out.println(calisan3);
 
 
     }
