@@ -80,16 +80,20 @@ public class Employee {
          System.out.println("İşe başlangıç yılı: " + this.hireYear);
          System.out.println("Vergi Tutarı: " +this.vergiTutari);
          System.out.println("Bonus Ücreti: " +this.bonusUcret);
-         System.out.println("Bonus Ücreti: " +this.maasHesapArtisi);
+         System.out.println("Maaş Artışı: " +this.maasHesapArtisi);
          System.out.println("Vergi ve Bonuslar ile birlikte maaş : " +(this.salary+this.bonusUcret-this.vergiTutari));
          System.out.println("Toplam Maaş  : " +(this.salary+this.bonusUcret+this.maasHesapArtisi-this.vergiTutari));
 
      }*/
     public String toString() {
-        return ("Çalışanın adı ve soyadı : " + this.name+"\nÇalışanın maaşı : " + this.salary+"\nHaftalık çalışma saati: " + this.workHours
-        +"\nİşe başlangıç yılı: " + this.hireYear+"\nVergi Tutarı: " +this.vergiTutari+"\nBonus Ücreti: " +this.bonusUcret
-        +"\nBonus Ücreti: " +this.maasHesapArtisi+ "\nVergi ve Bonuslar ile birlikte maaş : " +(this.salary+this.bonusUcret-this.vergiTutari)
-        +"\nToplam Maaş  : " +(this.salary+this.bonusUcret+this.maasHesapArtisi-this.vergiTutari));
+        return ("Çalışanın adı ve soyadı : " + this.name
+                +"\nÇalışanın maaşı : " + this.salary
+                +"\nHaftalık çalışma saati: " + this.workHours
+                +"\nİşe başlangıç yılı: " + this.hireYear
+                +"\nVergi Tutarı: " +this.vergiTutari
+                +"\nBonus Ücreti: " +this.bonusUcret
+                +"\nMaaş Artışı: " +this.maasHesapArtisi+ "\nVergi ve Bonuslar ile birlikte maaş : " +(this.salary+this.bonusUcret-this.vergiTutari)
+                +"\nToplam Maaş  : " +(this.salary+this.bonusUcret+this.maasHesapArtisi-this.vergiTutari));
         }
 
     }
